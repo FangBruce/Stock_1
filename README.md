@@ -1,8 +1,8 @@
-'''Bruce股市 - AI 輔助投資機器人'''
+# Bruce股市 - AI 輔助投資機器人
 
 這是一個基於 Python 開發的桌面應用程式，旨在結合實時金融數據與 Google Gemini AI 技術，為投資者提供直觀、即時的市場分析與決策建議。
 
-🌟 核心特色
+## 🌟 核心特色
 
 多樣化資產追蹤：涵蓋台股熱門個股、主要 ETF 以及全球主流加密貨幣（BTC, ETH等）。
 
@@ -14,7 +14,7 @@ AI 智能投顧：串接 Google Gemini API，根據當前股價提供專業級�
 
 精美現代化 UI：簡約的文字方框設計，支援響應式佈局與捲軸控制。
 
-🛠️ 技術架構
+## 🛠️ 技術架構
 
 開發語言：Python
 
@@ -30,7 +30,7 @@ UI 框架：Tkinter / ttk
 
 非同步處理：threading (確保 AI 請求不卡頓 UI)
 
-🚀 快速開始
+## 🚀 快速開始
 
 1. 環境準備
 
@@ -40,7 +40,9 @@ UI 框架：Tkinter / ttk
 
 打開終端機並運行以下指令：
 
+```bash
 pip install yfinance matplotlib pandas google-generativeai
+```
 
 
 3. 設定 API Key
@@ -49,15 +51,17 @@ pip install yfinance matplotlib pandas google-generativeai
 
 在 bruce_finance_pro_v4.py 程式碼中找到以下變數並填入：
 
+```python
 GEMINI_API_KEY = "您的_API_KEY_HERE"
-
+```
 
 4. 執行程式
 
+```bash
 python bruce_finance_pro_v4.py
+```
 
-
-📖 使用說明
+## 📖 使用說明
 
 註冊帳號：首次使用請點擊右上角「註冊」，輸入 Email 並設定密碼（需兩次確認）。
 
@@ -68,8 +72,8 @@ python bruce_finance_pro_v4.py
 查看分析：點擊列表中的「數據分析」按鈕，即可查看即時價格、走勢圖與 Bruce AI 的投資建議。
 
 搜尋功能：可在右上角搜尋欄直接輸入代號（如：2330.TW）或名稱進行快速查詢。
-
-⚠️ 免責聲明
+ 
+# ⚠️ 免責聲明
 
 本軟體所提供之所有數據與 AI 建議僅供學術與研究參考，不構成任何形式的投資操作建議。投資有風險，使用者在進行金融交易前應自行承擔責任並諮詢專業理財顧問。
 
